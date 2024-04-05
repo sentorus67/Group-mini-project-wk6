@@ -7,9 +7,21 @@
 </head>
 <body>
     <h1>User Registration Form</h1>
-    <form>
+    <form id="searchForm">
         <input type="text" id="search" name="search" required><br><br>
 
+            <label for="searchQuery">Search Query:</label>
+            <input type="text" id="searchQuery" name="q" placeholder="Enter your search query">
+        
+            <label for="searchFormat">Search Format:</label>
+            <select id="searchFormat" name="format">
+                <option value="">Select a format</option>
+                <option value="photos">Photos</option>
+                <option value="videos">Videos</option>
+                <option value="documents">Documents</option>
+            </select>
+        
+            <button type="submit">Search</button>
         <option value="" required><br><br>
     </form>
 </body>
