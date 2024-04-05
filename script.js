@@ -8,4 +8,4 @@ function getApi() {
         .then(function (data){
             consolog.log(data);
         })
-}
+}  
